@@ -5,11 +5,11 @@ import { handleSubmit } from "./js/formHandler";
 
 export { checkForName, cleanText, updateUI, getSentiment, handleSubmit };
 
-import "./styles/resets.css";
-import "./styles/base.css";
-import "./styles/header.css";
-import "./styles/form.css";
-import "./styles/footer.css";
-import "./styles/results.css";
+// import "./styles/resets.scss";
+// import "./styles/base.scss";
+// import "./styles/header.scss";
+// import "./styles/form.scss";
+// import "./styles/footer.csss";
+// import "./styles/results.scss";
 
 console.log("Client started");

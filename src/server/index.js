@@ -91,6 +91,11 @@ app.listen(port, function () {
   console.log(`Server listening on port ${port}`);
 });
 
+app.get("/", function (req, res) {
+  res.sendFile("dist/index.html");
+  // res.sendFile(path.resolve(src/client/views/index.html')
+});
+
 app.get("/meaning", function (req, res) {
   console.log("server index get./meaning req.query.text:", req.query.text);
   const { text } = req.query;
